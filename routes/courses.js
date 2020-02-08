@@ -57,7 +57,7 @@ router.post('/edit', auth, courseValidators, async (req, res) => {
   try {
 
     delete req.body.id
-    await Course.findById(id)
+    const course = await Course.findById(id)
     if (!isOwner(course, req)) {
       return res.redirect('/courses')
     }

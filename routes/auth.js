@@ -42,8 +42,8 @@ router.post('/login', loginValidators, async (req, res) => {
         req.session.user = candidate
         req.session.isAuthenticated = true
         req.session.save(err => {
-            if (err) throw err
-            res.redirect('/')
+                if (err) throw err
+                res.redirect('/')
         })
     } catch (e) {
         console.log(e)
