@@ -1,5 +1,5 @@
 # Course Store
-###Веб версия -  [Клик](https://fisherenok.herokuapp.com/)
+### Веб версия -  [Клик](https://fisherenok.herokuapp.com/)
 
 ### Как зпаустить приложение? ###
 
